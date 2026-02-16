@@ -8,14 +8,40 @@ sites:
     url: https://api.dev.standshare.app/health
     expectedStatusCodes:
       - 200
-    __dangerous__body_down: '"status":"degraded"'
+      - 503
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+  - name: API — Database
+    url: https://api.dev.standshare.app/health
+    expectedStatusCodes:
+      - 200
+      - 503
+    __dangerous__body_down_if_text_missing: '"database":"ok"'
+  - name: API — Redis
+    url: https://api.dev.standshare.app/health
+    expectedStatusCodes:
+      - 200
+      - 503
+    __dangerous__body_down_if_text_missing: '"redis":"ok"'
   - name: Admin Portal
     url: https://admin.dev.standshare.app
   - name: Admin API
     url: https://admin-api.dev.standshare.app/health
     expectedStatusCodes:
       - 200
-    __dangerous__body_down: '"status":"degraded"'
+      - 503
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+  - name: Admin API — Database
+    url: https://admin-api.dev.standshare.app/health
+    expectedStatusCodes:
+      - 200
+      - 503
+    __dangerous__body_down_if_text_missing: '"database":"ok"'
+  - name: Admin API — Redis
+    url: https://admin-api.dev.standshare.app/health
+    expectedStatusCodes:
+      - 200
+      - 503
+    __dangerous__body_down_if_text_missing: '"redis":"ok"'
 
 status-website:
   cname: status.dev.standshare.app

@@ -10,18 +10,23 @@ sites:
     url: https://admin.dev.standshare.app
   - name: Admin API
     url: https://admin-api.dev.standshare.app/health
-  - name: Docs
-    url: https://docs.standshare.app
-  - name: Marketing
-    url: https://www.standshare.app
 
 status-website:
   cname: status.dev.standshare.app
-  logoUrl: https://www.standshare.app/logo.png
+  logoUrl: https://raw.githubusercontent.com/GraditiPro/standshare-status-dev/master/standshare_logo.jpg
+  favicon: https://raw.githubusercontent.com/GraditiPro/standshare-status-dev/master/standshare_logo.jpg
   name: StandShare Status (Dev)
   introTitle: "**StandShare Dev** service status and uptime monitor."
   introMessage: Real-time status for all StandShare development environment services. Powered by [Upptime](https://github.com/upptime/upptime).
   theme: night
+  css: "\n
+    :root {
+    --color-primary: #1F4FD8;
+    --color-success: #1E6A57;
+    }\n
+    .navbar { background-color: #0F2D46 !important; }\n
+    a { color: #1F4FD8; }\n
+    a:hover { color: #C8A951; }\n"
   navbar:
     - title: Status
       href: /

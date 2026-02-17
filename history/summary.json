@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/demo.dev.standshare.app.ico",
     "slug": "web-app",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.46%",
+    "uptimeDay": "97.13%",
+    "uptimeWeek": "98.46%",
+    "uptimeMonth": "98.46%",
+    "uptimeYear": "98.46%",
     "time": 218,
     "timeDay": 253,
     "timeWeek": 218,
     "timeMonth": 218,
     "timeYear": 218,
     "dailyMinutesDown": {
-      "2026-02-17": 0
+      "2026-02-17": 41
     }
   },
   {
@@ -25,11 +25,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.dev.standshare.app.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "98.37%",
+    "uptime": "98.40%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.37%",
-    "uptimeMonth": "98.37%",
-    "uptimeYear": "98.37%",
+    "uptimeWeek": "98.40%",
+    "uptimeMonth": "98.40%",
+    "uptimeYear": "98.40%",
     "time": 391,
     "timeDay": 315,
     "timeWeek": 391,
@@ -80,19 +80,19 @@
     "url": "https://admin.dev.standshare.app",
     "icon": "https://icons.duckduckgo.com/ip3/admin.dev.standshare.app.ico",
     "slug": "admin-portal",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 175,
-    "timeDay": 265,
-    "timeWeek": 175,
-    "timeMonth": 175,
-    "timeYear": 175,
+    "status": "up",
+    "uptime": "98.46%",
+    "uptimeDay": "97.13%",
+    "uptimeWeek": "98.46%",
+    "uptimeMonth": "98.46%",
+    "uptimeYear": "98.46%",
+    "time": 181,
+    "timeDay": 274,
+    "timeWeek": 181,
+    "timeMonth": 181,
+    "timeYear": 181,
     "dailyMinutesDown": {
-      "2026-02-17": 0
+      "2026-02-17": 41
     }
   }
 ]
